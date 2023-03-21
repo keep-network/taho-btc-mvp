@@ -5,9 +5,11 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@keep-network/tbtc-v2.ts": "development",
+    "bcoin": "git+https://github.com/keep-network/bcoin.git#5accd32c63e6025a0d35d67739c4a6e84095a1f8",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "@keep-network/tbtc-v2.ts": "development"
+    "wif": "^2.0.6"
   },
   "scripts": {
     "postinstall": "npm rebuild bcrypto"
