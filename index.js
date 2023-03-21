@@ -1,7 +1,10 @@
 const express = require('express')
+const bcoin = require('bcoin')
 const cors = require('cors')
 const tbtcv2bitcoin = require("@keep-network/tbtc-v2.ts/dist/src/bitcoin")
 const tbtcv2electrum = require("@keep-network/tbtc-v2.ts/dist/src/electrum")
+
+bcoin.set("testnet")
 
 const app = express()
 app.use(cors())
