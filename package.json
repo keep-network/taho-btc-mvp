@@ -1,0 +1,15 @@
+{
+  "name": "taho-btc-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "@keep-network/tbtc-v2.ts": "development"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild bcrypto"
+  }
+}
